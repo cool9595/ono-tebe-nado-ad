@@ -3,7 +3,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  height: 293px;
+  padding: 92px 50px 96px;
 }
 
 .header__menu {
@@ -37,7 +38,7 @@
 
 .header__logo {
   display: block;
-  width: 148px;
+  width: 135px;
   justify-self: center;
 }
 
@@ -68,8 +69,11 @@
 /* Cover */
 .cover {
   position: relative;
-  min-height: 757px;
-  padding: 165px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 757px;
+  padding: 155px 50px 50px;
   color: #fff;
   background-image: url("../images/cover.jpg");
   background-position: center;
@@ -90,10 +94,9 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  margin-bottom: 155px;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.35;
   text-transform: uppercase;
 }
 
@@ -151,14 +154,14 @@
 
 /* Lots */
 .lots {
-  padding: 180px 24px 0;
+  padding: 180px 24px 120px;
 }
 
 .lots__heading {
   margin: 0 40px 27px;
   font-size: 40px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -237,9 +240,10 @@
 /* About */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 25px 72px;
-  padding: 120px 24px 180px;
+  grid-template-columns: 240px 1fr;
+  gap: 72px;
+  margin: 0 24px;
+  padding: 35px 0 0 47px;
 }
 
 .about__column {
@@ -263,7 +267,7 @@
 }
 
 .about__title {
-  margin: 100px 0;
+  margin: 108px 0 100px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
@@ -283,7 +287,8 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
-  padding: 0 50px 90px;
+  margin-top: 180px;
+  padding: 0 50px 98px;
 }
 
 .footer__address {
