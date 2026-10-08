@@ -1,1 +1,67 @@
-/* Project sections are added below. */
+/* Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  font-size: 18px;
+  line-height: 1.25;
+  text-transform: lowercase;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link {
+  text-underline-offset: 3px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  justify-self: center;
+}
+
+.header__logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.address a {
+  text-underline-offset: 3px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 240px;
+  justify-self: end;
+}
+
