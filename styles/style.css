@@ -234,3 +234,47 @@
   text-underline-offset: 4px;
 }
 
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px 72px;
+  padding: 120px 24px 180px;
+}
+
+.about__column {
+  min-width: 0;
+}
+
+.about__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: auto;
+}
+
+.about__title {
+  margin: 100px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
